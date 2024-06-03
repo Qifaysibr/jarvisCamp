@@ -1,7 +1,7 @@
 <footer class="py-4 bg-light mt-auto">
     <div class="container-fluid px-4">
         <div class="d-flex align-items-center justify-content-between small">
-            <div class="text-muted">Copyright &copy; Manajemen Tugas 2024</div>
+            <div class="text-muted">Copyright &copy; MANTU 2024 | Manajemen Tugas</div>
             <div>
                 <a href="#">Privacy Policy</a>
                 &middot;

@@ -8,14 +8,12 @@ Route::get('/', function () {
 });
 
 /**
- * HTTP methods:
+ * HTTP Methods:
  * 1. Get: untuk menampilkan sesuatu
- * 2. Post: untuk menambah data
+ * 2. Post: untuk menambahkan data
  * 3. Put: untuk mengubah data
  * 4. Delete: untuk menghapus data
  */
 
-// route untuk menampilkan halaman tugas
+// Route untuk menampilkan halaman daftar tugas
 Route::get('/tasks', [TaskController::class, 'index']);
-
-Route::get('/tasks/{id}', [TaskController::class, 'show']);
